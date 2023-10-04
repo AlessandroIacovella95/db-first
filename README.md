@@ -22,3 +22,4 @@ nomi colonne in inglese
 | Plate            | CHAR(7)     | NOTNULL              |
 | Km               | MEDIUMINT   | UNSIGNED, NOTNULL    |
 | Fuel             | VARCHAR(25) | NOTNULL              |
+| Condition        | TINYINT     | DEFAULT(1)           |
