@@ -11,15 +11,15 @@ nomi colonne in inglese
 
 | Column           | Type        | Attributes           |
 | ---------------- | ----------- | -------------------- |
-| Chassis          | BIGINT      | Primary Key          |
-| Brand            | VARCHAR(50) | NOTNULL              |
-| Model            | VARCHAR(50) | NOTNULL              |
-| Displacement     | SMALLINT    | UNSIGNED, NULL       |
-| Production Year  | YEAR        | NOTNULL              |
-| Price            | MEDIUMINT   | UNSIGNED, NOTNULL    |
-| Number of owners | TINYINT     | UNSIGNED, DEFAULT(1) |
-| Note             | TEXT        | NULL                 |
-| Plate            | CHAR(7)     | NOTNULL              |
-| Km               | MEDIUMINT   | UNSIGNED, NOTNULL    |
-| Fuel             | VARCHAR(25) | NOTNULL              |
-| Condition        | TINYINT     | DEFAULT(1)           |
+| chassis          | BIGINT      | Primary Key          |
+| brand            | VARCHAR(50) | NOTNULL              |
+| model            | VARCHAR(50) | NOTNULL              |
+| displacement     | SMALLINT    | UNSIGNED, NULL       |
+| production_year  | YEAR        | NOTNULL              |
+| price            | MEDIUMINT   | UNSIGNED, NOTNULL    |
+| number_of_owners | TINYINT     | UNSIGNED, DEFAULT(1) |
+| note             | TEXT        | NULL                 |
+| plate            | CHAR(7)     | NOTNULL              |
+| km               | MEDIUMINT   | UNSIGNED, NOTNULL    |
+| fuel             | VARCHAR(25) | NOTNULL              |
+| condition        | TINYINT     | DEFAULT(1)           |
